@@ -130,3 +130,19 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 }); 
+document.addEventListener("DOMContentLoaded", function () {
+  const arrivo = document.getElementById("arrivo");
+  const partenza = document.getElementById("partenza");
+
+  if (arrivo && partenza) {
+    arrivo.addEventListener("change", function () {
+      if (arrivo.value) {
+        partenza.min = arrivo.value;
+
+        if (!partenza.value || partenza.value < arrivo.value) {
+          partenza.value = arrivo.value;
+        }
+      }
+    });
+  }
+}); 
