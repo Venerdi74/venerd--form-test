@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /it-thank-you.html
+Disallow: /en-thank-you.html
+Disallow: /fr-thank-you.html
+Disallow: /de-thank-you.html
+Disallow: /es-thank-you.html
+Disallow: /pl-thank-you.html
+Disallow: /ro-thank-you.html
+Disallow: /hu-thank-you.html
+Disallow: /sk-thank-you.html
+
+Allow: /
+
+Sitemap: https://venerdihouse.com/sitemap.xml
